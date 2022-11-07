@@ -1,0 +1,41 @@
+.App{
+    width: 100%;
+    background-image: url('./assets/one.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .wrapper{
+        .row{
+            .columna{
+                .botones{
+                    button{
+                        border: none;
+                        outline: none;
+                        border-radius: 10px;
+                        background-color: #8E2834;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: bold;
+                        padding: 10px 15px;
+                        .icon{
+                            color: yellow;
+                        }
+                    }
+
+                }
+                .google{
+                    iframe{
+                        border: 2px solid orange;
+                    }
+                }
+                .nombre{
+                    h1{
+                        font-family: 'Kolker Brush', cursive;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
